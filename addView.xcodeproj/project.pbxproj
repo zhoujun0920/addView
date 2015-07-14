@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AA93DA01B4656110089332E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA93D9F1B4656110089332E /* AVFoundation.framework */; };
+		5AA93DA41B465A260089332E /* rainbow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5AA93DA31B465A260089332E /* rainbow.wav */; };
+		5AA93E3E1B4CA5C00089332E /* Jay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5AA93E3D1B4CA5C00089332E /* Jay.mp3 */; };
 		5AD78EB61B43350B00EBC6F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD78EB51B43350B00EBC6F9 /* AppDelegate.swift */; };
 		5AD78EB81B43350B00EBC6F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD78EB71B43350B00EBC6F9 /* ViewController.swift */; };
 		5AD78EBB1B43350B00EBC6F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AD78EB91B43350B00EBC6F9 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AA93D9F1B4656110089332E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5AA93DA31B465A260089332E /* rainbow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rainbow.wav; sourceTree = "<group>"; };
+		5AA93E3D1B4CA5C00089332E /* Jay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Jay.mp3; sourceTree = "<group>"; };
 		5AD78EB01B43350B00EBC6F9 /* addView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = addView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AD78EB41B43350B00EBC6F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AD78EB51B43350B00EBC6F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA93DA01B4656110089332E /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +66,7 @@
 		5AD78EA71B43350B00EBC6F9 = {
 			isa = PBXGroup;
 			children = (
+				5AA93D9F1B4656110089332E /* AVFoundation.framework */,
 				5AD78EB21B43350B00EBC6F9 /* addView */,
 				5AD78EC81B43350B00EBC6F9 /* addViewTests */,
 				5AD78EB11B43350B00EBC6F9 /* Products */,
@@ -90,6 +98,8 @@
 		5AD78EB31B43350B00EBC6F9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5AA93E3D1B4CA5C00089332E /* Jay.mp3 */,
+				5AA93DA31B465A260089332E /* rainbow.wav */,
 				5AD78EB41B43350B00EBC6F9 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AA93E3E1B4CA5C00089332E /* Jay.mp3 in Resources */,
 				5AD78EBB1B43350B00EBC6F9 /* Main.storyboard in Resources */,
+				5AA93DA41B465A260089332E /* rainbow.wav in Resources */,
 				5AD78EC01B43350B00EBC6F9 /* LaunchScreen.xib in Resources */,
 				5AD78EBD1B43350B00EBC6F9 /* Images.xcassets in Resources */,
 			);
@@ -411,6 +423,7 @@
 				5AD78ED11B43350B00EBC6F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AD78ED21B43350B00EBC6F9 /* Build configuration list for PBXNativeTarget "addViewTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +432,7 @@
 				5AD78ED41B43350B00EBC6F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
